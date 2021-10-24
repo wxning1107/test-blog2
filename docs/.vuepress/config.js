@@ -1,7 +1,8 @@
 module.exports = {
     title: '王雄宁',
     description: '个人笔记',
-    dest: './docs/.vuepress/dist',
+    dest: 'build/.vuepress/dist',
+    host: 'localhost',
     port: '8080',
     head: [
         ['link', {rel: 'icon', href: '/images/logo.jpg'}]
